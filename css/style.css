@@ -1,0 +1,36 @@
+/* custom logo */
+#logo {
+  width: 140px;
+  height: 50px;
+}
+
+/* custom features */
+#features1 {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+#features2 {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+#features3 {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+/* custom cube */
+#cube img {
+  width: 75px;
+  height: 75px;
+}
