@@ -12,12 +12,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
     </head>
-    <body id="home">
+    <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container px-5">
-                <a class="navbar-brand" href="#home">Huehuy | Enhancing your bussines</a>
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/img/huehuy-logo3.png" alt="huehuy logo" id="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -31,7 +34,7 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-dark py-5">
+        <header class="bg-dark py-5" id="home">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
@@ -53,17 +56,23 @@
             <div class="container px-5 my-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-stopwatch-fill"></i></div>
+                        <div class="feature text-white rounded-3 mb-3">
+                            <img src="assets/img/3.jpg" alt="img-1" id="features1">
+                        </div>
                         <h2 class="h4 fw-bolder">Efektifitas</h2>
                         <p>Seberapa besar sih efektifitas dari kegiatan-kegiatan promosi saat ini?</p>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <div class="feature text-white rounded-3 mb-3">
+                            <img src="assets/img/1.jpg" alt="img-2" id="features2">
+                        </div>
                         <h2 class="h4 fw-bolder">Kuantitas</h2>
                         <p>Berapa orang yang bisa atau mau melihat media-media yang dipasang?</p>
                     </div>
                     <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-camera2"></i></div>
+                        <div class="feature text-white rounded-3 mb-3">
+                            <img src="assets/img/2.jpg" alt="img-3" id="features3">
+                        </div>
                         <h2 class="h4 fw-bolder">Kepastian</h2>
                         <p>Bagaimana cara pemasang iklan mengetahui secara pasti bahwa promo yang mereka pasang itu berpengaruh terhadap penjualan produk mereka?</p>
                     </div>
@@ -103,13 +112,13 @@
                     <div class="col-lg-6 col-xl-4">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-5 text-center">
-                            <i class="bi bi-box"></i><br>
+                            <img src="assets/img/cube.jpg" alt="cube"><br>
                                 <div class="small text-uppercase fw-bold text-muted"></div>
                                 <div class="mb-3">
-                                    <span class="display-4">Cube Merah putih</span>
+                                    <span class="display-6">Cube Merah putih</span>
                                 </div>
                                 <p class="lead mb-0">
-                                    Cube ini awalnya berwarna putih yang diisi dengan konten promo baik berupa tulisan ataupun gambar. Berubah warna merah jika user telah memiliki grup.
+                                    Cube ini awalnya berwarna putih dengan konten promo. Jadi merah jika user telah memiliki grup.
                                 </p>
                             </div>
                         </div>
@@ -118,28 +127,13 @@
                     <div class="col-lg-6 col-xl-4" width="200px">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-5 text-center">
-                            <i class="bi bi-box"></i><br>
-                                <div class="small text-uppercase fw-bold text-muted"></div>
+                            <img src="assets/img/cube.jpg" alt="cube"><br>
+                            <div class="small text-uppercase fw-bold text-muted"></div>
                                 <div class="mb-3">
-                                    <span class="display-4">Cube Hijau</span>
+                                    <span class="display-6">Cube Hijau</span>
                                 </div>
                                 <p class="lead mb-0">
                                     Cube hijau adalah cube yang merupakan pusat kehidupan pada aplikasi ini
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- cube kuning -->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5 text-center">
-                            <i class="bi bi-box"></i><br>
-                                <div class="small text-uppercase fw-bold text-muted"></div>
-                                <div class="mb-3">
-                                    <span class="display-4">Cube Kuning</span>
-                                </div>
-                                <p class="lead mb-0">
-                                    Cube ini adalah cube milik Huehuy yang telah ada dan di sebarkan di lokasi-lokasi tertentu dimana ini setiap satu cube, user hanya bisa mengisi satu sisinya per hari dengan cara membayar pada Huehuy ataupun dengan cara melakukan tugas yang diberikan huehuy terlebih dahulu.
                                 </p>
                             </div>
                         </div>
@@ -148,13 +142,28 @@
                     <div class="col-lg-6 col-xl-4">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-5 text-center">
-                            <i class="bi bi-box"></i><br>
+                                <img src="assets/img/cube.jpg" alt="cube"><br>
                                 <div class="small text-uppercase fw-bold text-muted"></div>
                                 <div class="mb-3">
-                                    <span class="display-4">Cube Biru</span>
+                                    <span class="display-6">Cube Biru</span>
                                 </div>
                                 <p class="lead mb-0">
                                     Cube biru ini bisa berjalan di peta berdasarkan GPS user yang memilikinya secara realtime.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cube kuning -->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mt-5 mb-xl-0">
+                            <div class="card-body p-5 text-center">
+                            <img src="assets/img/cube.jpg" alt="cube"><br>
+                            <div class="small text-uppercase fw-bold text-muted"></div>
+                                <div class="mb-3">
+                                    <span class="display-6">Cube Kuning</span>
+                                </div>
+                                <p class="lead mb-0">
+                                    Cube ini adalah cube milik Huehuy yang telah ada dan di sebarkan di lokasi-lokasi tertentu dimana ini setiap satu cube, user hanya bisa mengisi satu sisinya per hari dengan cara membayar pada Huehuy ataupun dengan cara melakukan tugas yang diberikan huehuy terlebih dahulu.
                                 </p>
                             </div>
                         </div>
@@ -303,7 +312,6 @@
         <section class="bg-light py-5">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                     <h2 class="fw-bolder">Hubungi kami!</h2>
                     <p class="lead mb-0">Masukan kalian sangat berarti bagi kami.</p>
                 </div>
@@ -370,7 +378,7 @@
             </div>
             <section class="maps" id="maps">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="mb-5">
                         <div class="col-sm-12">
                             <div class="mapouter">
                                 <div class="gmap_canvas">
